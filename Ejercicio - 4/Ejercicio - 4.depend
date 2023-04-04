@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1680629550 source:c:\users\laboratorios\desktop\ejercicio - 4\funciones.c
+	"Funciones.h"
+
+1680629042 c:\users\laboratorios\desktop\ejercicio - 4\funciones.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1680629040 source:c:\users\laboratorios\desktop\ejercicio - 4\main.c
+	"Funciones.h"
+
