@@ -26,3 +26,5 @@ Rules
 
 
 ////////////////////////////////////////////////////////////////	CLASE 2		//////////////////////////////////////////////////////////
+
+Diferencia entre debuger y release es que el debuger agrega informacion para procesar el codigo, por lo tanto es menos eficent que el release.
