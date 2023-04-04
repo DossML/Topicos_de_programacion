@@ -1,9 +1,12 @@
 #include "Funciones.h"
 
 double raiz(int num,float tol){
-    double r1=1;
+    double r1=1, r2=1;
+    r2 = 0.5*(r1+(num/r1));
+
     do{
-        r1 = 0.5*(r1+(num/r1));
-    }while(r1>pow(num, 0.5)+tol);
-    return r1;
+        r1=r2;
+        r2 = 0.5*(r1+(num/r1));
+    }while(r1-r2>tol);
+    return r2;
 }
