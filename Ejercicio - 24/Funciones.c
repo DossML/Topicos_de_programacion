@@ -31,13 +31,11 @@ void insertarElemOrd(int* v, int num, int ce){
 }
 
 void EliminarElemPorPos(int* v, int pos, int ce){
-    do{
-        if(pos != ce){
+    while(pos < ce){
             *(v+pos-1) = *(v+pos);
             *(v+pos) = 0;
             pos++;
-        }
-        else
+    }
+    if (pos == ce)
             *(v+pos-1) = 0;
-    }while(pos < ce);
 }
