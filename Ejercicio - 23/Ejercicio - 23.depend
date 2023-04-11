@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1681071163 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\ejercicio - 23\funciones.c
+	"Funciones.h"
+
+1681069832 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\ejercicio - 23\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1681071194 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\ejercicio - 23\main.c
+	"Funciones.h"
+
