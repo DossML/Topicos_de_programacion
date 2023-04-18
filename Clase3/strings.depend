@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1681246625 source:c:\users\laboratorios\desktop\nueva carpeta (10)\strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1681831696 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
