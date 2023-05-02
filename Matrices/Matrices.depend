@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1682444920 source:c:\users\laboratorios\desktop\matrices\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1682455809 source:c:\users\laboratorios\downloads\matrices\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1681324037 source:/media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ofuscado.h"
+
+1681320998 /media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/hideLib/ofusdefus.h
+
+1681229585 /media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/minunit.h
+	<Windows.h>
+	<unistd.h>
+	<time.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<string.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<stdio.h>
+	<math.h>
+
+1681323730 source:/media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/hideLib/ofusdefus.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<ctype.h>
+
+1681324272 source:/media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/ofuscado.c
+	<stdlib.h>
+
+1681324239 /media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/ofuscado.h
+
+1681324037 source:/media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/AlumnosLinux64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ofuscado.h"
+
+1681324239 /media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/AlumnosLinux64/ofuscado.h
+
+1681324272 source:/media/psoligo/DB1/git/Progra1110/Autoexamenes/AU04Ofuscado/AlumnosLinux64/ofuscado.c
+	<stdlib.h>
+
+1681761198 source:d:\git\programacion\autoexamenes\au04ofuscado\alumnoswindows64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ofuscado.h"
+
+1681392476 d:\git\programacion\autoexamenes\au04ofuscado\alumnoswindows64\ofuscado.h
+
+1681392476 source:d:\git\programacion\autoexamenes\au04ofuscado\alumnoswindows64\ofuscado.c
+	<stdlib.h>
+
+1681847694 source:c:\users\laboratorios\documents\clase\main.c
+	"ofuscado.h"
+
+1681843925 c:\users\laboratorios\documents\clase\ofuscado.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1681847667 source:c:\users\laboratorios\documents\clase\ofuscado.c
+	"ofuscado.h"
+
+1682205889 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase4\main.c
+	"ofuscado.h"
+
+1682186890 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase4\ofuscado.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1682207402 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase4\ofuscado.c
+	"ofuscado.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1682200140 source:d:\unlam\2023\1ercuatri\topicos\c3\funcionesstring\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
