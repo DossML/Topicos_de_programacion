@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1683060497 source:c:\users\laboratorios\desktop\punteros_void\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1683082101 source:d:\descargas\punteros_void\punteros_void\main.c
+	<stdio.h>
+	<stdlib.h>
+

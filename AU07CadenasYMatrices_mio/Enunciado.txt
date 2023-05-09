@@ -1,0 +1,42 @@
+Cadenas:
+--------
+Implemente la funcion "esAnagrama" para determinar si una cadena responde al patrón.
+"Un anagrama es una palabra o frase que resulta de la transposición de todas las
+letras de otra palabra o frase.
+Dicho de otra forma, una palabra o frase es anagrama de otra si las dos tienen las mismas letras,
+con el mismo número de apariciones, pero en un orden diferente."
+
+Ej: Nacionalista es anagrama de Altisonancia
+
+Matrices:
+--------
+
+Implemente la funcion __cargarMatrizEspiralCentroAIAD, para cargar los valores
+de una matriz de enteros en un vector recibido como argumento.
+Se debera posicionar en el centro para luego en forma de espiral "Arriba, Izquierda, Abajo, Derecha"
+recorrerla en su totalidad y cargar completamente el vector.
+Solo para matrices cuadradas o donde columnas+1=filas.
+
+Ej:
+    int mat[][MAX_COL] = {
+        {13, 12, 11, 10, 25},
+        {14,  3,  2,  9, 24},
+        {15,  4,  1,  8, 23},
+        {16,  5,  6,  7, 22},
+        {17, 18, 19, 20, 21},
+    };
+
+
+Producira el siguiente patrón:
+int vecR[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25};
+
+y
+int mat[][MAX_COL] = {
+        {13, 12, 11,  10},
+        {14,  3,  2,   9},
+        {15,  4,  1,   8},
+        {16,  5,  6,   7},
+        {17, 18, 19,   20}
+    };
+el siguiente:
+int vecR[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
