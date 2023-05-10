@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1682994964 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase5\funciones.c
+	"Funciones.h"
+
+1682994840 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase5\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1682994881 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase5\main.c
+	"Funciones.h"
+
