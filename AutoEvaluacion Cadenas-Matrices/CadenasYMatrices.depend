@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1682459690 source:/media/psoligo/DB1/git/Progra1110/Libs/cadenas.c
+	<ctype.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"cadenas.h"
+
+1682459690 /media/psoligo/DB1/git/Progra1110/Libs/cadenas.h
+
+1682530854 source:/media/psoligo/DB1/git/Progra1110/Libs/Matrices.c
+	<stdlib.h>
+	<stdio.h>
+	"Matrices.h"
+
+1682530854 /media/psoligo/DB1/git/Progra1110/Libs/Matrices.h
+
+1682531042 source:/media/psoligo/DB1/git/Progra1110/Autoexamenes/AU07CadenasYMatrices/main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../Libs/cadenas.h"
+	"../../Libs/Matrices.h"
+	"minunit.h"
+
+1680201186 /media/psoligo/DB1/git/Progra1110/Libs/vectorEntero.h
+
+1682459690 /media/psoligo/DB1/git/Progra1110/Autoexamenes/AU07CadenasYMatrices/minunit.h
+	<Windows.h>
+	<unistd.h>
+	<time.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<string.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<stdio.h>
+	<math.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1680633285 source:c:\users\laboratorios\desktop\clase2\main.c
+	"utiles.h"
+	"vectorEnteros.h"
+
+1680633255 c:\users\laboratorios\desktop\clase2\utiles.h
+	<stdio.h>
+	<stdlib.h>
+
+1680633293 source:c:\users\laboratorios\desktop\clase2\utiles.c
+	"utiles.h"
+
+1680633160 c:\users\laboratorios\desktop\clase2\vectorenteros.h
+
