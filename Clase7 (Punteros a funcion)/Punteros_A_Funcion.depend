@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1683657480 source:c:\users\laboratorios\desktop\struct\punteros_a_funcion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1683666545 source:c:\users\laboratorios\downloads\punteros_a_funcion\punteros_a_funcion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684099921 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase7 (punteros a funcion)\funciones.c
+	"Funciones.h"
+
+1684099256 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase7 (punteros a funcion)\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684099873 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase7 (punteros a funcion)\main.c
+	"Funciones.h"
+
