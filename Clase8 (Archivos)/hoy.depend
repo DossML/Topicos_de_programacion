@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1684271793 source:c:\users\laboratorios\desktop\hoy\main.c
+	"vector.h"
+	"archivos.h"
+
+1684270774 c:\users\laboratorios\desktop\hoy\vector.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684270792 source:c:\users\laboratorios\desktop\hoy\vector.c
+	"vector.h"
+
+1684269745 source:c:\users\laboratorios\desktop\hoy\archivos.c
+	"archivos.h"
+
+1684269702 c:\users\laboratorios\desktop\hoy\archivos.h
+
+1684269746 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase8 (archivos)\archivos.c
+	"archivos.h"
+
+1684269704 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase8 (archivos)\archivos.h
+
+1684380631 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase8 (archivos)\main.c
+	"vector.h"
+	"archivos.h"
+
+1684371054 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase8 (archivos)\vector.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684374194 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase8 (archivos)\vector.c
+	"vector.h"
+
