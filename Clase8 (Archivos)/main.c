@@ -47,7 +47,7 @@ int main(){
     //fwrite(&vec, sizeof(vec), 1, pf);
     //fwrite(vec, sizeof(vec), sizeof(vec)/sizeof(tVenta), pf);
     for(i=0; i<ce; i++)
-        fwrite(vec, sizeof(tVenta), 1, pf);
+        fwrite(vec+(i*sizeof(tVenta)), sizeof(tVenta), 1, pf);
 
     fclose(pf);
 
