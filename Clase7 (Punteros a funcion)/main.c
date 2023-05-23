@@ -26,6 +26,8 @@ int main()
     float promTotal = 0, vF = 7;
     tAlu alu[10];
     unsigned cant = 10;
+    int vec[] = {8,3,1,5,2,9,4,6};
+    int elem = 1;
 
 // PRIMERA PARTE (MUESTRA DE COMO USAR UN PUNTERO A FUNCION)
     void *f;
@@ -54,5 +56,28 @@ int main()
     printf("Alumnos con promedio mayor a %.2f:\n\nAlumnos:\tProm\tDNI\n", vF);
     //Ejemplo de MAP
     map(alu, cant, sizeof(tAlu), (void*) mostrarAlumno);
+
+    puts("");
+
+    for(i=0; i<8; i++)
+    {
+        printf("%d ", vec[i]);
+    }
+
+    ordenarSeleccion(vec, 8, sizeof(int), (void*) buscarMenorInt);
+
+    puts("\nVector Ordenado: ");
+
+    for(i=0; i<8; i++)
+    {
+        printf("%d ", vec[i]);
+    }
+
+    //busquedaBinaria(vec, &elem, 8, sizeof(int), cmp_int);
+
+    printf("\nElemento Encontrado: %d", *(int*)busquedaBinaria(vec, &elem, 8, sizeof(int), cmp_int)); // Explota si encuentra un elemento que no esta porque retorna NULL, no lo puedo mostrar.
+
+
+
     return 0;
 }

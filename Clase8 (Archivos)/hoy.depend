@@ -33,3 +33,20 @@
 1684374194 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase8 (archivos)\vector.c
 	"vector.h"
 
+1684625867 source:d:\descargas\topicos_de_programacion-main\topicos_de_programacion-main\clase8 (archivos)\archivos.c
+	"archivos.h"
+
+1684467913 d:\descargas\topicos_de_programacion-main\topicos_de_programacion-main\clase8 (archivos)\archivos.h
+
+1684626731 source:d:\descargas\topicos_de_programacion-main\topicos_de_programacion-main\clase8 (archivos)\main.c
+	"vector.h"
+	"archivos.h"
+
+1684467913 d:\descargas\topicos_de_programacion-main\topicos_de_programacion-main\clase8 (archivos)\vector.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684467913 source:d:\descargas\topicos_de_programacion-main\topicos_de_programacion-main\clase8 (archivos)\vector.c
+	"vector.h"
+

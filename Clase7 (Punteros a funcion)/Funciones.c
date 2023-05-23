@@ -31,10 +31,105 @@ void filtrar(void* vec, unsigned* ce, size_t tam, const void *vF, int cmp(const 
     }
 }
 
-int cmp_int(const void*a, const void*b){
-    if(*(int*)a - *(int*)b >= 0)
-        return 1;
-    return 0;
+void reducir(const void* vec, unsigned ce, size_t tam, void* acum, void* acumuladores(void*, const void*))
+{
+    int i;
+    for(i=0; i<ce; i++)
+        acumuladores(acum, vec+(i*tam));
+}
+
+
+void* busquedaBinaria(void* vec, void* elem, unsigned ce, size_t tam, int cmp(const void*, const void*)) // Fotitos Karina: https://kpopping.com/kpics/230320-aespa-Weibo-Update-Karina
+{
+
+    void* pi = vec;
+    void* pf = vec+(tam*ce);
+    void* medio = vec+(tam*ce/2);
+
+
+    while(pi != pf)
+    {
+        if(cmp(elem, medio) > 0)
+        {
+            pi = medio+=tam;
+        }
+        else if(cmp(elem, medio) < 0)
+        {
+            pf = medio-=tam;
+        }
+        else
+            return medio;
+
+        medio = pi+(((pf-pi)/tam)/2)*tam;
+
+    }
+
+    if(cmp(elem, medio) != 0)
+        return NULL;
+
+    return medio;
+
+}
+
+int cmp_int(const void*a, const void*b)
+{
+
+    return *(int*)a - *(int*)b;
+
+}
+
+void ordenarSeleccion(void* vec, unsigned ce, size_t tam, void* buscarMenor(const void*, unsigned))
+{
+
+    int i;
+    void* menor = vec;
+
+    for(i=0; i<ce; i++)
+    {
+
+        menor = buscarMenor(vec, ce-i); // Retorno la direccion del menor.
+
+        intercambio(vec, menor, tam); // Intercambio.
+
+        vec+=tam; // Aumento una posicion del principio ya que lo ordene.
+    }
+
+}
+
+void* buscarMenorInt(void* vec, unsigned ce)
+{
+    int i;
+    void* menor = vec;
+
+    for(i=0; i<ce; i++)
+    {
+        if(*(int*)vec < *(int*)menor)
+        {
+            menor = vec;
+        }
+
+        vec+=sizeof(int);
+    }
+
+    return menor;
+
+}
+
+void intercambio(void* a, void* b, size_t tam)
+{
+
+    int i;
+    char aux; // Uso char porque es el tipo de dato mas barato (1 byte)
+
+    for(i=0; i<tam; i++){
+
+        aux = *(char*)a;            // aux = el contenido de a, casteado a un puntero a char.
+        *(char*)a = *(char*)b;
+        *(char*)b = aux;
+
+        a++;
+        b++;
+    }
 }
 
 int cmp_float(const void*a, const void*b)
@@ -49,13 +144,6 @@ int cmp_promedio(const void*a, const void*b)
     if((*(tAlu*)a).prom - *(float*)b < 0)
         return 1;
     return 0;
-}
-
-void reducir(const void* vec, unsigned ce, size_t tam, void* acum, void* acumuladores(void*, const void*))
-{
-    int i;
-    for(i=0; i<ce; i++)
-        acumuladores(acum, vec+(i*tam));
 }
 
 void acum_int(void* acum, const void* vec){

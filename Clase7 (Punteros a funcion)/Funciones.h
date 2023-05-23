@@ -25,6 +25,10 @@ int cmp_int(const void*a, const void*b);
 int cmp_float(const void*a, const void*b);
 int cmp_promedio(const void*a, const void*b);
 void mostrarElemInt(const void* ele);
+void ordenarSeleccion(void* vec, unsigned ce, size_t tam, void* buscarMenor(const void*, unsigned));
+void* busquedaBinaria(void* vec, void* elem, unsigned ce, size_t tam, int cmp(const void*, const void*));
+void intercambio(void* a, void* b, size_t tam);
+void* buscarMenorInt(void* vec, unsigned ce);
 //void qsort(void *base, size_t nmemb, size_t tam, int (*comparar)(const void *, const void *)); // Parametros del qsort
 
 
