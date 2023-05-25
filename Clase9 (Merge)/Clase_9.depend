@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1684871963 source:c:\users\laboratorios\desktop\clase_9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ej13.h"
+
+1684873953 source:c:\users\laboratorios\desktop\clase_9\ej13.c
+	"Ej13.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684872031 c:\users\laboratorios\desktop\clase_9\ej13.h
+
+1684896504 source:d:\descargas\clase_9\clase_9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ej13.h"
+
+1684895820 d:\descargas\clase_9\clase_9\ej13.h
+
+1684897284 source:d:\descargas\clase_9\clase_9\ej13.c
+	"Ej13.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684981129 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase_9\clase_9\ej13.c
+	"Ej13.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684895820 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase_9\clase_9\ej13.h
+
+1684980633 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase_9\clase_9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ej13.h"
+
