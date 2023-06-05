@@ -8,14 +8,12 @@ int crearLoteEmpl(const char* nom_archv)
 {
     int i;
 /*  LOTE DE PRUEBA PARA EL EJERCICIO 13 (PRIMERA PARTE)*/
-    tEmpl empl[10] = {{1,"b","a",100},{2,"z","a",200},{3,"c","b",300},{4,"d","b",400},{5,"e","e",500},
+/*    tEmpl empl[10] = {{1,"b","a",100},{2,"z","a",200},{3,"c","b",300},{4,"d","b",400},{5,"e","e",500},
                       {6,"f","f",600},{7,"g","g",700},{8,"h","h",800},{9,"i","i",900},{10,"j","j",1000}};
-
+*/
 //  LOTE DE PRUEBA PARA EL MERGE (SEGUNDA PARTE)
-/*
     tEmpl empl[10] = {{1,"a","a",100},{2,"c","d",100},{3,"e","f",100},{4,"d","b",400},{5,"e","e",500},
                       {6,"f","f",600},{7,"g","g",700},{8,"o","p",100},{9,"q","r",100},{10,"s","t",100}};
-*/
 
     FILE* pf = fopen(nom_archv, "wb");
 
@@ -51,17 +49,17 @@ int crearLoteNovedades(const char* nom_archv)
 {
     int i;
 
-    tNovedad nov[10] = {{{1,"a","b",100},'a'},{{2,"c","d",100},'b'},{{3,"e","f",300},'m'},{{4,"g","h",100},'b'},{{5,"i","j",400},'m'},       // A = 1,7,10 | B = 2,4,8 | M = 3,5,6,9
-                        {{6,"k","l",200},'m'},{{7,"m","n",100},'a'},{{8,"o","p",100},'b'},{{9,"q","r",500},'m'},{{10,"s","t",100},'a'}};
+    tNovedad nov[11] = {{{1,"a","b",100},'a'},{{2,"c","d",100},'b'},{{3,"e","f",300},'m'},{{4,"g","h",100},'b'},{{5,"i","j",400},'m'},       // A = 1,7,10 | B = 2,4,8 | M = 3,5,6,9
+                        {{6,"k","l",200},'m'},{{7,"m","n",100},'a'},{{8,"o","p",100},'b'},{{9,"q","r",500},'m'},{{10,"s","t",100},'a'}, {{11,"u","v",100},'a'}};
 
-    // 1,2,3,8,7,9 no tienen error.
-    // 10,4,5,6 tiene error.
+    // 1,2,3,8,7,9,11 no tienen error.
+    // 4,5,6 tiene error.
 
     FILE* pf = fopen(nom_archv, "wb");
 
     if(!pf)
         return 1;
-    for(i = 0; i<10; i++)
+    for(i = 0; i<11; i++)
         fwrite(&nov[i], sizeof(tNovedad), 1, pf);
 
     fclose(pf);
@@ -201,7 +199,7 @@ int mergeEmpleadosNovedades(const char* arch1, const char* arch2, int cmp_NovEmp
         }
         else
         {
-            printf("Error.\t");
+            printf("\nError en DNI: %d \t(%c)", nov.empleado.dni, nov.tipo);
         }
 
         fread(&nov, sizeof(tNovedad), 1, pNov);

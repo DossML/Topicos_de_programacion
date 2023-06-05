@@ -1,0 +1,3 @@
+123|Pepin Pepon| 7.50
+234|Pepun Pepan| 9.00
+789|Sapin Sapito| 5.70

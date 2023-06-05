@@ -56,17 +56,17 @@ int main()
 //  Para una mejor experiencia, elegir en la funcion "crearLoteEmpl" el lote de pruebas correspondiente
 {
 //  PRIMERA PARTE (EJERCICIO 13 (ARCHIVOS))
-    crearLoteAlu(ArchAlu);
+/*    crearLoteAlu(ArchAlu);
     crearLoteEmpl(ArchEmpl);
     mostrarEmpl(ArchEmpl);
     mostrarAlumno(ArchAlu);
     if(actualizarArchivosEmpl(ArchEmpl, ArchAlu, cmp_EmplAlu))
         return 1;
     printf("\n%s actualizado correctamente\n\n", ArchEmpl);
-    mostrarEmpl(ArchEmpl);
+    mostrarEmpl(ArchEmpl);*/
 
 //  SEGUNDA PARTE (MERGE)
-/*
+
     crearLoteEmpl(ArchEmpl);
     crearLoteNovedades(ArchNovedades);
     mostrarEmpl(ArchEmpl);
@@ -76,6 +76,6 @@ int main()
         return 1;
     printf("\n%s actualizado correctamente segun %s\n\n", ArchEmpl, ArchNovedades);
     mostrarEmpl(ArchEmpl);
-*/
+
     return 0;
 }

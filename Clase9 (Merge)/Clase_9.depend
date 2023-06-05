@@ -38,3 +38,16 @@
 	<stdlib.h>
 	"Ej13.h"
 
+1685924502 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase9 (merge)\ej13.c
+	"Ej13.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1684895820 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase9 (merge)\ej13.h
+
+1685911359 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase9 (merge)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ej13.h"
+
