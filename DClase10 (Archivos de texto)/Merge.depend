@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1685479739 source:c:\users\laboratorios\desktop\merge\merge\merge\main.c
+	"Funciones.h"
+
+1685479682 c:\users\laboratorios\desktop\merge\merge\merge\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1685479993 source:c:\users\laboratorios\desktop\merge\merge\merge\funciones.c
+	"Funciones.h"
+
+1686014251 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase10 (archivos de texto)\funciones.c
+	"Funciones.h"
+
+1686010595 c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase10 (archivos de texto)\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1686014659 source:c:\users\miyamura\documents\unlam\13_programacion\topicos de programacion\clase10 (archivos de texto)\main.c
+	"Funciones.h"
+
